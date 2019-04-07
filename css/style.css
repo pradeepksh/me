@@ -511,6 +511,48 @@ ul.project-share{
 	margin:0.8em 0;
 	display:block;
 }
+
+#social{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;	
+}
+
+#social a{
+	width:30px;
+	height:30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background: none;
+	color:grey;
+	transition:all 0.3s;
+	text-decoration: none;
+}
+
+
+
+.fa-facebook:hover{
+	
+  	color: #3B5998;
+}
+
+.fa-twitter:hover{
+	
+	color: #55ACEE;
+}
+.fa-linkedin:hover{
+		
+  		color: #007bb5;
+}
+
+.fa-github:hover{
+	color:black;
+	
+
+}
+
 .social-share ul li{
 	padding:0 3px;
 }
